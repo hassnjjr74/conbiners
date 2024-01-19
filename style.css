@@ -1,0 +1,25 @@
+/* Write your code here: */
+/* this is the group selector that we cann add the same value 
+to two different proprty / selector */
+h1 , h2 {
+    color: blueviolet;
+}
+/* this is the childe combinter that we can add value to an selectoe
+by use this > after the paernt selector.*/
+.box>.done {
+    color: firebrick;
+}
+/* the descendant combinitor is technically one or two
+white space like : selec1 selec2 selec3 */
+ .box li  {
+    color: blue;
+}
+/* chaining combintor where all Selector are true
+/* li.done also is true */
+.box>.list>.done.done {
+    color: green;
+}
+/* combining combiners */
+ ul p.done {
+    font-size: 0.5rem;
+}
